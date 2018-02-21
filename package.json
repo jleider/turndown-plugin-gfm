@@ -38,6 +38,7 @@
     "build-iife": "rollup -c config/rollup.config.iife.js",
     "build-test": "browserify test/turndown-plugin-gfm-test.js --outfile test/turndown-plugin-gfm-test.browser.js",
     "prepublish": "npm run build",
+    "preinstall": "num run prepublish",
     "test": "npm run build && standard ./src/**/*.js && node test/turndown-plugin-gfm-test.js"
   }
 }
