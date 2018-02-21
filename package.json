@@ -13,10 +13,6 @@
     "turndown": "4.0.1",
     "turndown-attendant": "0.0.2"
   },
-  "files": [
-    "lib",
-    "dist"
-  ],
   "keywords": [
     "turndown",
     "turndown-plugin",
