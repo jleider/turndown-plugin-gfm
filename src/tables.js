@@ -13,7 +13,7 @@ rules.tableRow = {
   filter: 'tr',
   replacement: function (content, node) {
     var borderCells = ''
-    var alignMap = { left: ':--', right: '--:', center: ':-:' }
+    var alignMap = { left: ':---', right: '---:', center: ':---:' }
 
     if (isHeadingRow(node)) {
       for (var i = 0; i < node.childNodes.length; i++) {
